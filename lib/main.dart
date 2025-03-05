@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:movies/core/widgets/main_text_form_field.dart';
+import 'package:movies/core/constants/app_images_paths.dart';
 
 void main() {
   runApp(const MainApp());
@@ -9,10 +11,15 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('Hello World!'),
+          child: MainTextFormField(
+            controller: TextEditingController(),
+            prefixIcon: Icon(Icons.abc),
+            hintText: "Password",
+            validator: (x) {},
+          ),
         ),
       ),
     );
