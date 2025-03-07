@@ -9,6 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  bloc:
+  flutter_bloc:
+  easy_localization:
+  loader_overlay:
+  redacted:
   hive_flutter: ^1.1.0
   http: ^1.3.0
   flutter_screenutil: ^5.9.3
