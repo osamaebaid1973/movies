@@ -1,7 +1,6 @@
 // images path
 class AppImagesPaths{
   static const String path = 'assets/images';
-
   //password eye on image
    static String eyeOn = '$path/eye_on.png';
    static String eyeOff = '$path/eye_off.png';
@@ -49,6 +48,6 @@ class SvgPath{
   static String contactUsChat = '$svgs/contact_us_chat.svg';
   static String contactUsEmail = '$svgs/contact_us_email.svg';
   */
-  
+
 
 }

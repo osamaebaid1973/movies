@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:movies/main.dart';
+import 'package:movies/features/layouts/home/screen/home_screen.dart';
 
 class AppRoutes{
   static const String movieDetails ="movieDetails";
@@ -17,9 +16,9 @@ class AppRoutes{
     // "login":(context) => const Login(),
     // "register":(context) => const Register(),
     // "forgetPassword":(context) => const ForgetPassword(),
-    // "home":(context) => const Home(),
+    "home":(context) => const HomeScreen(),
     // "updateProfile":(context) => const UpdateProfile(),
-    "/":(context) => const PlaceHolderScreen() 
+    // "/":(context) => const PlaceHolderScreen()
   } ;
   
 }
