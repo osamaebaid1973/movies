@@ -12,7 +12,5 @@ class AppFontSize{
   static const double s32 = 32.0;
   static const double s34 = 34.0;
   static const double s36 = 36.0;
-  
-
 
 }

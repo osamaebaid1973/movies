@@ -7,17 +7,19 @@ class MainButton extends StatelessWidget {
   VoidCallback onPressed;
   Color color;
   double sizedBoxWidth;
+
   MainButton(
-      {super.key, required this.onPressed,
+      {super.key,
+      required this.onPressed,
       required this.child,
       required this.color,
       required this.sizedBoxWidth});
+
   @override
   Widget build(BuildContext context) {
     return SizedBox(
       height: 58.0,
       width: sizedBoxWidth,
-    
       child: ElevatedButton(
         onPressed: () {},
         style: ElevatedButton.styleFrom(

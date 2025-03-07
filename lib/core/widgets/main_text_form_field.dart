@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:movies/core/constants/app_images_paths.dart';
 
+// ignore: must_be_immutable
 class MainTextFormField extends StatefulWidget {
   String? Function(String?) validator;
   Widget prefixIcon;
