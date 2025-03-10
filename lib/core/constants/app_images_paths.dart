@@ -1,9 +1,11 @@
 // images path
-class AppImagesPaths{
+class AppImagesPaths {
   static const String path = 'assets/images';
+  static const String imageUrl = 'https://image.tmdb.org/t/p/original/';
+  static const String empty = '$path/empty.png';
   //password eye on image
-   static String eyeOn = '$path/eye_on.png';
-   static String eyeOff = '$path/eye_off.png';
+  static String eyeOn = '$path/eye_on.png';
+  static String eyeOff = '$path/eye_off.png';
   //examples
   /*
   static String splash1 = '$path/Splash1.png';
@@ -19,13 +21,12 @@ class AppImagesPaths{
   */
 }
 
-
-
-
-
 // icons path
-class IconPath{
+class IconPath {
   static const String icon = 'assets/icons';
+
+  static const String searchIcon = '$icon/search_icon.png';
+  static const String rateIcon = '$icon/rate_icon.png';
   //examples
   /*
   static String facebook = 'assets/icons/settings/Facebook.png';
@@ -37,10 +38,8 @@ class IconPath{
   */
 }
 
-
-
 //svg path
-class SvgPath{
+class SvgPath {
   static const String svgs = 'assets/svgs';
   // examples
   /*
@@ -48,6 +47,4 @@ class SvgPath{
   static String contactUsChat = '$svgs/contact_us_chat.svg';
   static String contactUsEmail = '$svgs/contact_us_email.svg';
   */
-
-
 }
